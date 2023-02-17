@@ -115,13 +115,13 @@ h6 {
     padding: 40px 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
+    grid-gap: 6px;
 }
 
 /* ----------- deposit start --------- */
 .deposit {
     background-color: #2e2828;
-    width: 290px;
+    /* width: 290px; */
     height: 199px;
     border-radius: 15px;
     display: flex;
@@ -154,7 +154,7 @@ h6 {
 .section_three_btn_grp {
     margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .section_three_btn_grp a {
@@ -200,7 +200,7 @@ h6 {
 /* ------------ withdrew_bonus start ----------- */
 .withdrew_bonus {
     background-color: #242328;
-    width: 290px;
+    /* width: 290px; */
     height: 199px;
     border-radius: 15px;
     display: flex;
@@ -263,7 +263,6 @@ h6 {
     width: 46%;
     top: 45px;
     left: 8px;
-    /* background-color: #5aca7b; */
     padding: 12px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -301,19 +300,45 @@ h6 {
 
 .refer_friend {
     background-color: #242328;
-    width: 290px;
+    /* width: 290px; */
     height: 199px;
     border-radius: 15px;
 }
 
+/* --------- invite_options start --------- */
 .invite_options {
-    background-color: #242328;
-    width: 290px;
+    width: 380px;
     height: 199px;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-/* section three end */
+.muibox {
+    position: relative;
+}
+
+.muibox a {
+    background-color: #242328;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 50%;
+    width: 68px;
+    height: 72px;
+}
+
+.muibox a img {
+    width: 100%;
+}
+
+.muibox p {
+    font-family: kanit;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* ---------- invite_options end ---------- */
+/* =========== section three end =============== */
 
 
 /**
