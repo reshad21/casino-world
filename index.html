@@ -4,26 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Casino World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- font awosome -->
+    <script src="https://kit.fontawesome.com/1e7710cd21.js" crossorigin="anonymous"></script>
+    <title>FROOVELLA</title>
 </head>
 <body>
     <!-- header start -->
-    <div class="container_whole">
-        <div class="header__Section">
-            <div class="header_left">
+    <header>
+        <div class="container_whole">
+            <div class="header__Section">
+                <div class="header_left">
+    
+                </div>
+                <div class="header_middle">
+                    <a href="#"><img src="images/bbcosina_logo.webp" alt=""></a>
+                </div>
+                <div class="header_right">
+                    <a>สมัครสมาชิก</a>
+                    <a>เข้าสู่ระบบ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header end -->
 
-            </div>
-            <div class="header_middle">
-                <a href="#"><img src="images/bbcosina_logo.webp" alt=""></a>
-            </div>
-            <div class="header_right">
-                <a>สมัครสมาชิก</a>
-                <a>เข้าสู่ระบบ</a>
+    <!-- Hero slider start -->
+    <div class="container">
+        <div class="container_whole">
+            <div class="swiper mySwiper" data-flickity='{"autoPlay":true}'>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error iste minima. Natus ullam tempora unde nihil dolorum similique harum!</p>
+                    <button>slide one</button>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error iste minima. Natus ullam tempora unde nihil dolorum similique harum!</p>
+                    <button>slide two</button>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error iste minima. Natus ullam tempora unde nihil dolorum similique harum!</p>
+                    <button>slide three</button>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- header end -->
+    <!-- Hero slider end -->
+
+    <!-- section three start -->
+    <div class="container">
+        <div class="container_whole">
+            <div class="section_three">
+                <div class="deposit">
+                    <span>ยอดเงินคงเหลือ</span>
+                    <span><i class="fa fa-btc" aria-hidden="true"></i>0.00</span>
+                    <div class="section_three_btn_grp">
+                        <a href="#">ฝากเงิน</a>
+                        <a href="#">ถอนเงิน</a>
+                    </div>
+                </div>
+                <div class="withdrew_bonus withdrew_progress">
+                    <span>เล่นได้ให้เพิ่ม เล่นเสียให้คืน</span>
+                    <span><i class="fa fa-btc" aria-hidden="true"></i>0</span>
+                    <span><a href="#">ถอนโบนัส</a></span>
+                    <div class="prograss__bar">
+
+                        <div class="circle_outer">
+                            <div class="circle">
+                                <p>0</p>
+                            </div>
+                            <span style="font-size: 11px; margin-left: -7px;">วัน</span>
+                        </div>
+
+                        <div class="circle_outer">
+                            <div class="circle circlebg">
+                                <p>0</p>
+                            </div>
+                            <span style="font-size: 11px; margin-left: -7px;">ชั่วโมง</span>
+                        </div>
+
+                        <div class="circle_outer">
+                            <div class="circle circlebg">
+                                <p>0</p>
+                            </div>
+                            <span style="font-size: 11px; margin-left: -7px;">นาที</span>
+                        </div>
+
+                        <div class="circle_outer">
+                            <div class="circle circlebg">
+                                <p>0</p>
+                            </div>
+                            <span style="font-size: 11px; margin-left: -7px;">วินาที</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="refer_friend withdrew_bonus">
+                    <span>โบนัสชวนเพื่อน</span>
+                    <span><i class="fa fa-btc" aria-hidden="true"></i>0</span>
+                    <span><a href="#">ถอนโบนัส</a></span>
+                </div>
+                <div class="invite_options"></div>
+            </div>
+        </div>
+    </div>
+    <!-- section three end -->
+
+
     <script src="js/main.js"></script>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- swiper slider script -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 1,
+            slidesPerView: 1,
+            loop: true,
+            stagePadding:250,
+
+
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 30,
+            before: 100, after: 50
+            
+        });
+    </script> -->
+
+    
 </body>
 </html>

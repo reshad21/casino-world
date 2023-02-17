@@ -44,7 +44,7 @@ h6 {
 }
 
 .container {
-    width: 1440px;
+    width: 1500px;
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -86,6 +86,7 @@ h6 {
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 3px 4px 2px 0px #292828;
+    text-transform: uppercase;
 }
 
 .header_right a:first-child {
@@ -96,6 +97,224 @@ h6 {
 .header_right a:last-child {
     background-color: #fbc307;
 }
+
+
+/* hero slider css */
+.mySwiper {
+    width: 1400px;
+    height: 500px;
+}
+
+.swiper-slide {
+    background-color: #fbc307;
+}
+
+
+/* section three start */
+.section_three {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+/* ----------- deposit start --------- */
+.deposit {
+    background-color: #2e2828;
+    width: 290px;
+    height: 199px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px 15px;
+    color: #664726;
+}
+
+.deposit span:nth-child(1) {
+    font-size: 19px;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+
+.deposit span:nth-child(2) {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    line-height: 0.9;
+
+}
+
+.deposit span:nth-child(2) .fa.fa-btc {
+    font-size: 43px;
+    padding-right: 5px
+}
+
+.section_three_btn_grp {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_three_btn_grp a {
+    display: inline-block;
+    padding: 5px 26px;
+    font-family: kanit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px 0px #292828;
+    text-transform: uppercase;
+}
+
+.section_three_btn_grp a:nth-child(1) {
+    background-color: #3ec31c;
+    transition: all 0.2s ease;
+}
+
+.section_three_btn_grp a:nth-child(1):hover {
+    box-shadow: 0px 0px 3px 2px #3ec31c;
+}
+
+.section_three_btn_grp a:nth-child(2) {
+    background-color: #e0113a;
+}
+
+.section_three_btn_grp a:nth-child(2):hover {
+    box-shadow: 0px 0px 3px 2px #e0113a;
+}
+
+
+/* ----------- deposit end --------- */
+
+
+
+
+
+
+
+
+/* ------------ withdrew_bonus start ----------- */
+.withdrew_bonus {
+    background-color: #242328;
+    width: 290px;
+    height: 199px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px 15px;
+    color: #b5b5b6;
+}
+
+.withdrew_bonus span:nth-child(1) {
+    font-size: 19px;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+
+.withdrew_bonus span:nth-child(2) {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    line-height: 0.9;
+
+}
+
+.withdrew_bonus span:nth-child(2) .fa.fa-btc {
+    font-size: 43px;
+    padding-right: 5px
+}
+
+.withdrew_bonus span:nth-child(3) {
+    margin-top: 48px;
+}
+
+.withdrew_bonus span:nth-child(3) a {
+    display: inline-block;
+    padding: 5px 26px;
+    font-family: kanit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px 0px #292828;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all 0.2s ease;
+}
+
+.withdrew_bonus span:nth-child(3) a:hover {
+    color: #242328;
+    background-color: burlywood;
+}
+
+.withdrew_progress {
+    position: relative;
+}
+
+.prograss__bar {
+    position: absolute;
+    width: 46%;
+    top: 45px;
+    left: 8px;
+    /* background-color: #5aca7b; */
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.circle_outer {
+    text-align: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #d00909;
+    border-radius: 50%;
+}
+
+.circle p {
+    font-size: 33px;
+    font-weight: 500;
+    color: #b5b5b6;
+    display: inline-block;
+}
+
+.circlebg {
+    border: 3px solid #b5b5b6;
+
+}
+
+/* ------------ withdrew_bonus end ----------- */
+
+
+
+
+
+.refer_friend {
+    background-color: #242328;
+    width: 290px;
+    height: 199px;
+    border-radius: 15px;
+}
+
+.invite_options {
+    background-color: #242328;
+    width: 290px;
+    height: 199px;
+    border-radius: 15px;
+}
+
+/* section three end */
+
 
 /**
     media query css
