@@ -462,6 +462,49 @@ h6 {
     width: 40% !important;
 }
 
+/* ====================
+    section five start
+    =================== */
+.game_camp {
+    margin-bottom: 40px;
+}
+
+.game_camp a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: kanit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    /* color: aliceblue; */
+    border-radius: 20px;
+    cursor: pointer;
+    /* box-shadow: 3px 4px 2px 0px #292828; */
+    text-transform: uppercase;
+    border: 1px solid #876a6a;
+    transition: all 0.2s ease;
+    width: 165px;
+}
+
+.game_camp a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.game_camp a img {
+    width: 40px;
+    height: 40px;
+}
+
+.game_camp a p {
+    display: inline-block;
+    font-family: kanit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+}
+
+
 
 /**
     media query css
