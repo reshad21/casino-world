@@ -35,6 +35,13 @@ h6 {
     font-family: arial;
 }
 
+/* p {
+    font-family: kanit;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: aliceblue;
+} */
+
 :root {
     --header-footer: #302a58;
 }
@@ -100,17 +107,12 @@ h6 {
 
 
 /* hero slider css */
-.mySwiper {
-    width: 1400px;
-    height: 500px;
-}
-
-.swiper-slide {
-    background-color: #fbc307;
-}
 
 
-/* section three start */
+
+/* =====================
+    section three start
+    ===================== */
 .section_three {
     padding: 40px 0;
     display: grid;
@@ -289,14 +291,9 @@ h6 {
 
 .circlebg {
     border: 3px solid #b5b5b6;
-
 }
 
 /* ------------ withdrew_bonus end ----------- */
-
-
-
-
 
 .refer_friend {
     background-color: #242328;
@@ -338,7 +335,132 @@ h6 {
 }
 
 /* ---------- invite_options end ---------- */
-/* =========== section three end =============== */
+
+/* ====================
+    section four start
+    =================== */
+.second__slider {
+    margin: 40px 0;
+}
+
+.swiper-wrapper {
+    margin-bottom: 20px;
+}
+
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 0;
+    height: 8px;
+}
+
+.swiper-scrollbar-drag {
+    background: none;
+    height: 8px;
+}
+
+.swiper-scrollbar-drag:after {
+    content: "";
+    width: 1259px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.slider__item {
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.slider__item__one {
+    background: url(../images/provider_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__two {
+    background: url(../images/hit_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__three {
+    background: url(../images/livecasino_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__four {
+    background: url(../images/slot_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__five {
+    background: url(../images/sport_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__six {
+    background: url(../images/fishing_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider__item__seven {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.slider__item__seven label {}
+
+.slider__item__seven input {
+    width: 57%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.slider__item__one:hover,
+.slider__item__two:hover,
+.slider__item__three:hover,
+.slider__item__four:hover,
+.slider__item__five:hover,
+.slider__item__six:hover {
+    transform: scale(1.1);
+}
+
+
+.swiper {
+    width: 100% !important;
+    height: 100%;
+}
+
+.swiper-slide:nth-child(-1+6) {
+    width: 10% !important;
+}
+
+.swiper-slide:nth-child(7) {
+    width: 40% !important;
+}
 
 
 /**

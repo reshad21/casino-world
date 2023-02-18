@@ -34,7 +34,7 @@
     <!-- //header end -->
 
     <!-- Hero slider start -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="container_whole">
             <div class="swiper mySwiper" data-flickity='{"autoPlay":true}'>
                 <div class="swiper-wrapper">
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Hero slider end -->
 
     <!-- section three start -->
@@ -147,13 +147,82 @@
     </div>
     <!-- section three end -->
 
+    <!-- section four start -->
+    <div class="container">
+        <div class="container_whole">
+            <div class="second__slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__one">
+                            <img src="images/provider_icon.webp" alt="">
+                            <p>ค่ายเกมส์</p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__two">
+                            <img src="images/hit_icon.webp" alt="">
+                            <p>เกมส์ยอดฮิต</p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__three">
+                            <img src="images/livecasino_icon.webp" alt="">
+                            <p>คาสิโนสด</p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__four">
+                            <img src="images/slot_icon.webp" alt="">
+                            <p>สล็อตมาใหม่</p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__five">
+                            <img src="images/sport_icon.webp" alt="">
+                            <p>กีฬาพารวย</p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__six">
+                            <img src="images/fishing_icon.webp" alt="">
+                            <p>ยิงปลา</p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="slider__item slider__item__seven">
+                            <label for="">ค้นหาเกมส์</label>
+                            <input type="text">
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide ">
+                        <div class="slider__item slider__item__six extra_items">
+                            <img src="images/fishing_icon.webp" alt="">
+                            <p>ยิงปลา</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section four end -->
+
 
     <script src="js/main.js"></script>
     <!-- JavaScript -->
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <!-- swiper slider script -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- first slider -->
+    <!-- <script>
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 1,
             slidesPerView: 1,
@@ -168,6 +237,23 @@
             
         });
     </script> -->
+
+    <!-- second slider -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // loop: true,
+            slidesPerView: 7,
+            spaceBetween: 5,
+            slidesOffsetAfter: 34,
+            // Way to add offset on first slide
+            // slidesOffsetBefore: 0,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+                dragSize: 'auto',
+            },
+        });
+    </script>
 
     
 </body>
