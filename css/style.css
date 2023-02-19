@@ -504,7 +504,12 @@ h6 {
     color: black;
 }
 
+/* ----------- section five slider start ------------- */
+.third__slider {
+    margin-bottom: 40px;
+}
 
+/* ------------ section five slider end ------------ */
 
 /**
     media query css

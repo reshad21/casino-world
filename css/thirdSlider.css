@@ -1,0 +1,33 @@
+.item {
+    margin-right: 10px;
+}
+
+.item a {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item a img {
+    border-radius: 46px;
+}
+
+.owl-stage {
+    padding-left: 0px !important;
+}
+
+.owl-nav {
+    background-color: red;
+    position: relative;
+}
+
+.owl-nav:after {
+    content: "";
+    width: 1259px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}

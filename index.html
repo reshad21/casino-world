@@ -7,9 +7,11 @@
     <title>Casino World</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
     <link rel="stylesheet" href="css/style.css">
-    <!-- font awosome -->
+    <link rel="stylesheet" href="css/thirdSlider.css">
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1e7710cd21.js" crossorigin="anonymous"></script>
     <title>FROOVELLA</title>
 </head>
@@ -224,6 +226,63 @@
                     <p>ค่ายเกมส์</p>
                 </a>
             </div>
+
+            <div class="third__slider">
+                <div class="owl-carousel owl-theme">
+  
+                    <div class="item">      
+                        <a><img src="images/PGSOFT.png" alt=""></a>
+                        <a><img src="images/SBO.png" alt=""></a>     
+                    </div>
+                  
+                    <div class="item">      
+                        <a><img src="images/PRAGMATIC.png" alt=""></a>
+                        <a><img src="images/SAGAME.png" alt=""></a>      
+                    </div>
+                  
+                    <div class="item">      
+                        <a><img src="images/RELAX.png" alt=""></a>
+                         <a><img src="images/SEXY.png" alt=""></a>      
+                    </div>
+                  
+                    <div class="item">      
+                        <a><img src="images/YGGDRASIL.png" alt=""></a>
+                        <a><img src="images/PRETTY.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/SLOTXO.png" alt=""></a>
+                        <a><img src="images/DREAM.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/MANNA.png" alt=""></a>
+                        <a><img src="images/SPADE.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/JILI.png" alt=""></a>
+                        <a><img src="images/XTREME.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/JOKER.png" alt=""></a>
+                        <a><img src="images/EVOPLAY.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/NETENT.png" alt=""></a>
+                        <a><img src="images/WM.png" alt=""></a>      
+                    </div>
+
+                    <div class="item">      
+                        <a><img src="images/NOLIMITCITY.png" alt=""></a>
+                        <a>10</a>      
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- section five end -->
@@ -235,23 +294,34 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- second slider -->
     <script src="js/secondSlider.js"></script>
+    <!-- third slider -->
+    <script src="js/thirdSlider.js"></script>
 
-    <!-- first slider -->
-    <!-- <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 1,
-            slidesPerView: 1,
-            loop: true,
-            stagePadding:250,
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+    
 
-            slidesPerView: "auto",
-            centeredSlides: true,
-            spaceBetween: 30,
-            before: 100, after: 50
-            
-        });
-    </script> -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:5,
+            merge:true,
+            nav:true,
+            stagePadding: 140,
+            responsive:{
+                0:{
+                    items:4
+                },
+                600:{
+                    items:6
+                },
+                1000:{
+                    items:7
+                }
+            }
+        })
+    </script>
 
     
     

@@ -1,2 +1,57 @@
 https://cosinaworld.com/
 https://cosinaworld.com/game?GameType=provider
+
+
+used margin padding slick slider
+--https://github.com/OwlCarousel2/OwlCarousel2/issues/172
+
+
+stagePadding: 140,
+.owl-stage {
+    padding-left: 0px !important;
+}
+
+
+how can i set different css style when i use multiple swiper slider in one html page?
+ans: 
+ ============ html code ============
+<div class="swiper-container swiper-1">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+  </div>
+</div>
+
+<div class="swiper-container swiper-2">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide A</div>
+    <div class="swiper-slide">Slide B</div>
+    <div class="swiper-slide">Slide C</div>
+  </div>
+</div>
+
+
+ ============= js code =============
+var swiper1 = new Swiper('.swiper-1', {
+  wrapperClass: 'swiper-wrapper-1',
+  // other options for swiper 1
+});
+
+var swiper2 = new Swiper('.swiper-2', {
+  wrapperClass: 'swiper-wrapper-2',
+  // other options for swiper 2
+});
+
+
+
+=============== css code =============
+.swiper-wrapper-1 {
+  /* styles for swiper 1 */
+}
+
+.swiper-wrapper-2 {
+  /* styles for swiper 2 */
+}
+
+
