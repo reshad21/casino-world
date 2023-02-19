@@ -55,3 +55,75 @@ var swiper2 = new Swiper('.swiper-2', {
 }
 
 
+
+
+
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/PGSOFT.png" alt=""></a>
+                                <a><img src="images/SBO.png" alt=""></a> 
+                            </div>    
+                        </div>
+                      
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/PRAGMATIC.png" alt=""></a>
+                                <a><img src="images/SAGAME.png" alt=""></a> 
+                            </div>     
+                        </div>
+                      
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/RELAX.png" alt=""></a>
+                                <a><img src="images/SEXY.png" alt=""></a> 
+                            </div>     
+                        </div>
+                      
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/YGGDRASIL.png" alt=""></a>
+                                <a><img src="images/PRETTY.png" alt=""></a>     
+                            </div> 
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/SLOTXO.png" alt=""></a>
+                                <a><img src="images/DREAM.png" alt=""></a>    
+                            </div>  
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/MANNA.png" alt=""></a>
+                                <a><img src="images/SPADE.png" alt=""></a>  
+                            </div>    
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/JILI.png" alt=""></a>
+                                <a><img src="images/XTREME.png" alt=""></a> 
+                            </div>     
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/JOKER.png" alt=""></a>
+                                <a><img src="images/EVOPLAY.png" alt=""></a>      
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/NETENT.png" alt=""></a>
+                                <a><img src="images/WM.png" alt=""></a>    
+                            </div>  
+                        </div>
+    
+                        <div class="swiper-slide">      
+                            <div class="item">
+                                <a><img src="images/NOLIMITCITY.png" alt=""></a>
+                                <a>10</a>      
+                            </div>
+                        </div>

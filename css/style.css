@@ -57,6 +57,14 @@ h6 {
     overflow: hidden;
 }
 
+.hide {
+    display: none;
+}
+
+.img__fluid {
+    width: 100%;
+}
+
 /* ==============header section========== */
 .header__Section {
     background-color: #302a58;
@@ -431,7 +439,7 @@ h6 {
 .slider__item__seven label {}
 
 .slider__item__seven input {
-    width: 57%;
+    width: 157%;
     height: 40px;
     border: 1px solid #000;
     border-radius: 20px;
@@ -454,13 +462,15 @@ h6 {
     height: 100%;
 }
 
-.swiper-slide:nth-child(-1+6) {
+
+
+/* .swiper-slide:nth-child(-1+6) {
     width: 10% !important;
 }
 
 .swiper-slide:nth-child(7) {
     width: 40% !important;
-}
+} */
 
 /* ====================
     section five start
@@ -507,6 +517,21 @@ h6 {
 /* ----------- section five slider start ------------- */
 .third__slider {
     margin-bottom: 40px;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.item a {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item a img {
+    border-radius: 46px;
 }
 
 /* ------------ section five slider end ------------ */
