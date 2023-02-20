@@ -124,7 +124,27 @@ h6 {
 }
 
 
-/* hero slider css */
+/* hero slider css start*/
+/* .hero__slider {
+    padding-right: 50px;
+} */
+
+.hero_item {
+    height: 300px;
+}
+
+.hero__slider>.HeroSlider>.swiper-wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+.hero_item img {
+    border-radius: 40px;
+    height: 100%;
+    vertical-align: top;
+}
+
+/* hero slider css end*/
 
 
 

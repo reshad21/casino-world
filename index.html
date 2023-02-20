@@ -33,7 +33,42 @@
     <!-- //header end -->
 
     <!-- Hero slider start -->
-    
+    <div class="container">
+        <div class="container_whole">
+            <div class="hero__slider">
+                <div class="swiper HeroSlider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide ">
+                        <div class="hero_item">
+                            <img src="images/bbcosina_1675851897756.png" alt="" class="img__fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="hero_item">
+                            <img src="images/bbcosina_1675851893542.jpg" alt="" class="img__fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="hero_item">
+                            <img src="images/bbcosina_1675851895871.jpg" alt="" class="img__fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="hero_item">
+                            <img src="images/bbcosina_1675851893542.jpg" alt="" class="img__fluid">
+                        </div>
+                      </div>
+                      <div class="swiper-slide ">
+                        <div class="hero_item">
+                            <img src="images/bbcosina_1675851895871.jpg" alt="" class="img__fluid">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Hero slider end -->
 
     <!-- section three start -->
@@ -1157,6 +1192,23 @@
 
     <script type="module">
         
+        const heroSlider = new Swiper('.HeroSlider', {
+            freeMode: true,
+            slidesPerView: 2,
+            loop:true,
+            spaceBetween: 5,
+            
+            slidesOffsetAfter: 414,
+            slidesOffsetBefore: 414,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            
+        });
         const swiper = new Swiper('.swiper-one', {
             slidesPerView: 7,
             spaceBetween: 5,
