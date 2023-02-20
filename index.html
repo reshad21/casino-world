@@ -342,7 +342,7 @@
 
     <!-- section six start -->
     <div class="container">
-        <div class="container_whole">
+        <div class="container_whole mb-50">
             <div class="game_camp">
                 <a href="#">
                     <img src="images/hit_icon.webp" alt="">
@@ -352,12 +352,17 @@
                     <p>ดูทั้งหมด คลิก</p>
                 </a>
             </div>
-            <div class="swiper swiper-one">
+            <div class="swiper swiper-three">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide ">
-                    <div class="slider__item slider__item__one">
-                        <img src="images/provider_icon.webp" alt="">
-                        <p>ค่ายเกมส์</p>
+                    <div class="a">
+                        <div class="slider__item pragmatic__item__one">
+                            <a href="#">ลงชื่อเข้าใช้</a>
+                        </div>
+                        <div class="game__title mt-20">
+                            <p>Lucky Fishing Megaways</p>
+                            <span>Pragmatic Play</span>
+                        </div>
                     </div>
                   </div>
                   <div class="swiper-slide ">
@@ -407,12 +412,9 @@
     <script type="module">
         
         const swiper = new Swiper('.swiper-one', {
-            // loop: true,
             slidesPerView: 7,
             spaceBetween: 5,
             slidesOffsetAfter: 34,
-            // Way to add offset on first slide
-            // slidesOffsetBefore: 0,
             scrollbar: {
                 el: ".swiper-scrollbar",
                 draggable: true,
@@ -422,21 +424,31 @@
 
 
         const swiperTwo = new Swiper('.swiper-two', {
-            // wrapperClass: 'swiper-wrapper-1',
-            // loop: true,
             slidesPerView: 9,
             spaceBetween: 20,
             slidesOffsetAfter: 600,
             slidesOffsetBefore: 34,
-            // Way to add offset on first slide
             slidesOffsetBefore: 0,
             scrollbar: {
                 el: ".swiper-scrollbar",
                 draggable: true,
                 dragSize: 'auto',
             },
-            
         });
+
+
+        const swiperThree = new Swiper('.swiper-three', {
+            slidesPerView: 7,
+            spaceBetween: 5,
+            slidesOffsetAfter: 34,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+                dragSize: 'auto',
+            },
+        });
+
+
     </script>
 
     

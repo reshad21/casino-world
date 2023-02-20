@@ -65,6 +65,14 @@ h6 {
     width: 100%;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
 /* ==============header section========== */
 .header__Section {
     background-color: #302a58;
@@ -584,7 +592,7 @@ h6 {
     background: #6acf2f;
     padding: 10px 0px;
     border-radius: 20px;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .third__slider_item a:hover {
@@ -598,10 +606,77 @@ h6 {
     margin-bottom: 15px;
 }
 
-
-
-
 /* ------------ section five slider end ------------ */
+
+
+/* ============ section six start ============= */
+.game__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pragmatic__item__one {
+    background: url(../images/PRAGMATIC_vswaysluckyfish.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.pragmatic__item__one:hover {
+    transform: scale(1.1);
+}
+
+.pragmatic__item__one:hover a {
+    display: inline-block;
+}
+
+.pragmatic__item__one a {
+    display: none;
+    font-family: kanit;
+    font-size: 1.20rem;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    background: gray;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.pragmatic__item__one a:hover {
+    box-shadow: 0px 0px 10px #000;
+}
+
+.game__title p {
+    letter-spacing: 0.00938em;
+    color: rgb(249, 201, 0);
+    font-family: ks;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 190px;
+    padding-bottom: 5px;
+}
+
+.game__title span {
+    margin: 0px;
+    /* line-height: 1.5; */
+    letter-spacing: 0.00938em;
+    color: rgb(255 255 255 / 80%);
+    font-family: ks;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* ============ section six end ============= */
+
 
 /**
     media query css
