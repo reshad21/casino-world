@@ -8,7 +8,7 @@
 
 body {
     font-family: arial, sans-sarif;
-    background-image: url(../images/bg.png);
+    background-image: url(../images/web_bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -71,6 +71,14 @@ h6 {
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.textalign {
+    text-align: center;
 }
 
 /* ==============header section========== */
@@ -512,6 +520,7 @@ h6 {
     display: flex;
     gap: 9px;
     align-items: center;
+    background: #fff;
 }
 
 .game_camp a img {
