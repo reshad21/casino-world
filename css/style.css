@@ -615,24 +615,227 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 190px;
 }
 
 .pragmatic__item__one {
     background: url(../images/PRAGMATIC_vswaysluckyfish.webp);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
 }
 
-.pragmatic__item__one:hover {
+.pragmatic__item__two {
+    background: url(../images/PRAGMATIC_vs10bbkir.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__three {
+    background: url(../images/PRAGMATIC_vswaysrabbits.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__four {
+    background: url(../images/PRAGMATIC_vs20drgbless.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__five {
+    background: url(../images/PGSOFT_midas-fortune.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__six {
+    background: url(../images/PGSOFT_asgardian-rs.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__seven {
+    background: url(../images/PGSOFT_diner-delights.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__eight {
+    background: url(../images/PGSOFT_alchemy-gold.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__nine {
+    background: url(../images/PGSOFT_totem-wonders.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__ten {
+    background: url(../images/PGSOFT_fortune-tiger.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__eleven {
+    background: url(../images/PGSOFT_mahjong-ways2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__twelve {
+    background: url(../images/PGSOFT_treasures-aztec.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__thirteen {
+    background: url(../images/PRAGMATIC_vs20sugarrush.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__fourteen {
+    background: url(../images/YGGDRASIL_10225.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__fifteen {
+    background: url(../images/NOLIMITCITY_180009.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.pragmatic__item__one:hover,
+.pragmatic__item__two:hover,
+.pragmatic__item__three:hover,
+.pragmatic__item__four:hover,
+.pragmatic__item__five:hover,
+.pragmatic__item__six:hover,
+.pragmatic__item__seven:hover,
+.pragmatic__item__eight:hover,
+.pragmatic__item__nine:hover,
+.pragmatic__item__ten:hover,
+.pragmatic__item__eleven:hover,
+.pragmatic__item__twelve:hover,
+.pragmatic__item__thirteen:hover,
+.pragmatic__item__fourteen:hover,
+.pragmatic__item__fifteen:hover {
     transform: scale(1.1);
 }
 
-.pragmatic__item__one:hover a {
+
+.pragmatic__item__one:hover a,
+.pragmatic__item__two:hover a,
+.pragmatic__item__three:hover a,
+.pragmatic__item__four:hover a,
+.pragmatic__item__five:hover a,
+.pragmatic__item__six:hover a,
+.pragmatic__item__seven:hover a,
+.pragmatic__item__eight:hover a,
+.pragmatic__item__nine:hover a,
+.pragmatic__item__ten:hover a,
+.pragmatic__item__eleven:hover a,
+.pragmatic__item__twelve:hover a,
+.pragmatic__item__thirteen:hover a,
+.pragmatic__item__fourteen:hover a,
+.pragmatic__item__fifteen:hover a {
     display: inline-block;
 }
 
-.pragmatic__item__one a {
+
+.pragmatic__item__one a,
+.pragmatic__item__two a,
+.pragmatic__item__three a,
+.pragmatic__item__four a,
+.pragmatic__item__five a,
+.pragmatic__item__six a,
+.pragmatic__item__seven a,
+.pragmatic__item__eight a,
+.pragmatic__item__nine a,
+.pragmatic__item__ten a,
+.pragmatic__item__eleven a,
+.pragmatic__item__twelve a,
+.pragmatic__item__thirteen a,
+.pragmatic__item__fourteen a,
+.pragmatic__item__fifteen a {
     display: none;
     font-family: kanit;
     font-size: 1.20rem;
@@ -645,9 +848,24 @@ h6 {
     transition: all 0.3s ease;
 }
 
-.pragmatic__item__one a:hover {
+.pragmatic__item__one a:hover,
+.pragmatic__item__two a:hover,
+.pragmatic__item__three a:hover,
+.pragmatic__item__four a:hover,
+.pragmatic__item__five a:hover,
+.pragmatic__item__six a:hover,
+.pragmatic__item__seven a:hover,
+.pragmatic__item__eight a:hover,
+.pragmatic__item__nine a:hover,
+.pragmatic__item__ten a:hover,
+.pragmatic__item__eleven a:hover,
+.pragmatic__item__twelve a:hover,
+.pragmatic__item__thirteen a:hover,
+.pragmatic__item__fourteen a:hover,
+.pragmatic__item__fifteen a:hover {
     box-shadow: 0px 0px 10px #000;
 }
+
 
 .game__title p {
     letter-spacing: 0.00938em;
