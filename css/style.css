@@ -124,10 +124,6 @@ h6 {
 }
 
 
-/* hero slider css start*/
-/* .hero__slider {
-    padding-right: 50px;
-} */
 
 .hero_item {
     height: 300px;
@@ -1014,6 +1010,31 @@ h6 {
 /* footer section end */
 
 
+
+
+/**
+    second page css style
+*/
+
+.scnd__page__main__sec {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.scnd__page__main__sec .sidebar {
+    width: calc(100% - 85%);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.scnd__page__main__sec .content {
+    width: calc(100% - 15%);
+}
+
+
 /**
     media query css
 */
@@ -1085,6 +1106,26 @@ h6 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 6px;
+    }
+
+    /* second page responsive */
+    .scnd__page__main__sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .sidebar {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 20px !important;
+    }
+
+    .content {
+        width: 100% !important;
     }
 
 
