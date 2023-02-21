@@ -400,7 +400,57 @@ h6 {
 
 .swiper-scrollbar-drag:after {
     content: "";
+    width: 1400px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-two .swiper-scrollbar-drag:after {
+    content: "";
     width: 1259px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-three .swiper-scrollbar-drag:after {
+    content: "";
+    width: 659px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-four .swiper-scrollbar-drag:after {
+    content: "";
+    width: 359px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-five .swiper-scrollbar-drag:after {
+    content: "";
+    width: 459px;
+    height: 8px;
+    border-radius: 10px;
+    background: #a8bbbf;
+    position: absolute;
+    top: 0;
+}
+
+.swiper-six .swiper-scrollbar-drag:after {
+    content: "";
+    width: 459px;
     height: 8px;
     border-radius: 10px;
     background: #a8bbbf;
