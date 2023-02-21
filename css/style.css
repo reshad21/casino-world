@@ -75,6 +75,10 @@ h6 {
     margin-bottom: 0 !important;
 }
 
+.mt-75 {
+    margin-top: 75px;
+}
+
 .textalign {
     text-align: center;
 }
@@ -1249,6 +1253,19 @@ h6 {
         grid-gap: 6px;
     }
 
+    .res__ftr_first_item_wraper {
+        position: absolute;
+        /* width: 100%; */
+        /* height: 100%; */
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 50%;
+        box-shadow: black 0px 0px 5px 0px;
+        padding: 25px;
+        bottom: 20px;
+        left: 50px;
+    }
+
 
 }
 
@@ -1363,7 +1380,54 @@ h6 {
         grid-template-columns: repeat(2, 1fr) !important;
     }
 
+    .res__ftr_first_item_wraper {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 50%;
+        box-shadow: black 0px 0px 5px 0px;
+        padding: 25px;
+        bottom: 37px;
+        left: 18px;
+    }
 
+    .res__ftr_first_item_wraper img {
+        display: inline-block;
+        width: 90%;
+        height: 103%;
+        margin-top: -10px;
+    }
+
+    .res__ftr_first_item_wraper p {
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        color: rgb(128, 128, 128);
+        font-family: ks;
+        font-size: 11px;
+        font-weight: 700;
+        white-space: 0;
+        display: inline-block;
+        width: 100px;
+        margin-left: -8px;
+    }
+
+    .responsive__footer {
+        background-color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+        /* position: fixed; */
+        bottom: 0;
+        left: 0;
+        /* width: 100%; */
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 9999999;
+        opacity: 1;
+    }
 
 
 
@@ -1385,5 +1449,39 @@ h6 {
         width: 100% !important;
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .res__ftr_first_item_wraper img {
+        display: inline-block;
+        width: 90%;
+        height: 103%;
+        margin-top: -15px;
+    }
+
+    .res__ftr_first_item_wraper p {
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        color: rgb(128, 128, 128);
+        font-family: ks;
+        font-size: 11px;
+        font-weight: 700;
+        white-space: 0;
+        display: inline-block;
+        width: 100px;
+        margin-left: -9px;
+        margin-top: -21px;
+    }
+
+    .res__ftr_first_item_wraper {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 50%;
+        box-shadow: black 0px 0px 5px 0px;
+        padding: 18px;
+        bottom: 37px;
+        left: 18px;
     }
 }
