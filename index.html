@@ -1262,6 +1262,35 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    slidesOffsetAfter: 0,
+                    slidesOffsetBefore: 0
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    slidesOffsetAfter: 0,
+                    slidesOffsetBefore: 0
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 5,
+                    // slidesOffsetAfter: 414,
+                    // slidesOffsetBefore: 414
+                },
+                991: {
+                    slidesPerView: 2,
+                    spaceBetween: 5,
+                    slidesOffsetAfter: 414,
+                    slidesOffsetBefore: 414
+                }
+            }
             
         });
         const swiper = new Swiper('.swiper-one', {
