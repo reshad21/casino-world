@@ -1302,6 +1302,7 @@
                 draggable: true,
                 dragSize: 'auto',
             },
+            
         });
 
 
@@ -1316,6 +1317,27 @@
                 draggable: true,
                 dragSize: 'auto',
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                slidesPerView: 3,
+                spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                slidesPerView: 5,
+                spaceBetween: 10
+                },
+                // when window width is >= 640px
+                640: {
+                slidesPerView: 6,
+                spaceBetween: 10
+                },
+                991: {
+                    slidesPerView: 9,
+                    spaceBetween: 20,
+                }
+            }
         });
 
 
