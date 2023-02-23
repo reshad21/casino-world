@@ -96,6 +96,11 @@ h6 {
     cursor: pointer;
 }
 
+
+#section__four__hidden {
+    display: none;
+}
+
 /* ==============header section========== */
 .header__Section {
     background-color: #302a58;
@@ -1410,6 +1415,13 @@ h6 {
         display: block;
     }
 
+    #section__four__hidden {
+        display: block;
+    }
+
+    .section__four__desktop__view {
+        display: none;
+    }
 
 }
 

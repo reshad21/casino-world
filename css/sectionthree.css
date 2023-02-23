@@ -470,3 +470,39 @@ hidden responsive slider for section three
 }
 
 /* ---------- invite_options end ---------- */
+
+
+
+
+
+
+
+
+/* ===========================
+section__four__hidden_wrapper
+==========================*/
+
+.section__four__hidden_wrapper {
+    display: none;
+}
+
+.section__four__hidden_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.section__four__hidden_wrapper_search {
+    position: absolute;
+    left: 24%;
+    /* z-index: 99999999; */
+    top: 301px;
+    width: 40%;
+}
+
+.section__four__hidden_wrapper_search>.slider__item__seven {
+    position: relative;
+}
