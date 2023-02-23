@@ -224,6 +224,76 @@
     </div>
     <!-- section three for responsive device -->
 
+
+    <!-- Hidden slider for section three start -->
+    <div class="section__three" id="sectionThreeHiddenSlider">
+        <div class="container">
+            <div class="container_whole">
+                <div class="swiper sectionThreeHiddenSlider">
+                    <div class="swiper-wrapper sectionThreeHiddenResponsive">
+                        <div class="swiper-slide">
+                            <div class="deposit">
+                                <span>ยอดเงินคงเหลือ</span>
+                                <span><i class="fa fa-btc" aria-hidden="true"></i>0.00</span>
+                                <div class="section_three_btn_grp">
+                                    <a href="#">ฝากเงิน</a>
+                                    <a href="#">ถอนเงิน</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="withdrew_bonus withdrew_progress">
+                                <span>เล่นได้ให้เพิ่ม เล่นเสียให้คืน</span>
+                                <span><i class="fa fa-btc" aria-hidden="true"></i>0</span>
+                                <span><a href="#">ถอนโบนัส</a></span>
+                                <div class="prograss__bar">
+            
+                                    <div class="circle_outer">
+                                        <div class="circle">
+                                            <p>0</p>
+                                        </div>
+                                        <span style="font-size: 11px; margin-left: -7px;">วัน</span>
+                                    </div>
+            
+                                    <div class="circle_outer">
+                                        <div class="circle circlebg">
+                                            <p>0</p>
+                                        </div>
+                                        <span style="font-size: 11px; margin-left: -7px;">ชั่วโมง</span>
+                                    </div>
+            
+                                    <div class="circle_outer">
+                                        <div class="circle circlebg">
+                                            <p>0</p>
+                                        </div>
+                                        <span style="font-size: 11px; margin-left: -7px;">นาที</span>
+                                    </div>
+            
+                                    <div class="circle_outer">
+                                        <div class="circle circlebg">
+                                            <p>0</p>
+                                        </div>
+                                        <span style="font-size: 11px; margin-left: -7px;">วินาที</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="refer_friend withdrew_bonus">
+                                <span>โบนัสชวนเพื่อน</span>
+                                <span><i class="fa fa-btc" aria-hidden="true"></i>0</span>
+                                <span><a href="#">ถอนโบนัส</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hidden slider for section three end -->
+
     <!-- section four start -->
     <div class="container">
         <div class="container_whole">
@@ -1352,6 +1422,29 @@
                     slidesOffsetAfter: 414,
                     slidesOffsetBefore: 414
                 }
+            }
+            
+        });
+        const sectionThreeHiddenSlider = new Swiper('.sectionThreeHiddenSlider', {
+            freeMode: true,
+            slidesPerView: 2,
+            loop:true,
+            spaceBetween: 80,
+            
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 80,
+                },
+                480: {
+                slidesPerView: 2,
+                spaceBetween: 80
+                },
             }
             
         });
