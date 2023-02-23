@@ -3091,7 +3091,7 @@ h6 {
         border: 1px solid gray;
         border-radius: 50%;
         box-shadow: black 0px 0px 5px 0px;
-        padding: 25px;
+        padding: 18px;
         bottom: 37px;
         left: 18px;
     }
@@ -3100,7 +3100,7 @@ h6 {
         display: inline-block;
         width: 90%;
         height: 103%;
-        margin-top: -10px;
+        margin-top: -15px;
     }
 
     .res__ftr_first_item_wraper p {
