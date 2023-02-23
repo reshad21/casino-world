@@ -1372,6 +1372,61 @@ h6 {
     background-color: #3e3262;
 }
 
+.section__seven__pragmatic__item__thirtythree {
+    background: url(../images/PRAGMATIC_402.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.section__seven__pragmatic__item__thirtyfour {
+    background: url(../images/PRAGMATIC_203.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.section__seven__pragmatic__item__thirtyfive {
+    background: url(../images/SAGAME_2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.section__seven__pragmatic__item__thirtysix {
+    background: url(../images/SAGAME_3.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
+.section__seven__pragmatic__item__thirtyseven {
+    background: url(../images/SAGAME_4.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 190px;
+    background-position: 50% 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: black 1px 1px 5px;
+    background-color: #3e3262;
+}
+
 .section__seven__pragmatic__item__one:hover,
 .section__seven__pragmatic__item__two:hover,
 .section__seven__pragmatic__item__three:hover,
@@ -1402,7 +1457,12 @@ h6 {
 .section__seven__pragmatic__item__twentyeight:hover,
 .section__seven__pragmatic__item__thirty:hover,
 .section__seven__pragmatic__item__thirtyone:hover,
-.section__seven__pragmatic__item__thirtytwo:hover {
+.section__seven__pragmatic__item__thirtytwo:hover,
+.section__seven__pragmatic__item__thirtythree:hover,
+.section__seven__pragmatic__item__thirtyfour:hover,
+.section__seven__pragmatic__item__thirtyfive:hover,
+.section__seven__pragmatic__item__thirtysix:hover,
+.section__seven__pragmatic__item__thirtyseven:hover {
     transform: scale(1.1);
 }
 
@@ -1437,7 +1497,12 @@ h6 {
 .section__seven__pragmatic__item__twentyeight:hover a,
 .section__seven__pragmatic__item__thirty:hover a,
 .section__seven__pragmatic__item__thirtyone:hover a,
-.section__seven__pragmatic__item__thirtytwo:hover a {
+.section__seven__pragmatic__item__thirtytwo:hover a,
+.section__seven__pragmatic__item__thirtythree:hover a,
+.section__seven__pragmatic__item__thirtyfour:hover a,
+.section__seven__pragmatic__item__thirtyfive:hover a,
+.section__seven__pragmatic__item__thirtysix:hover a,
+.section__seven__pragmatic__item__thirtyseven:hover a {
     display: inline-block;
 }
 
@@ -1472,7 +1537,12 @@ h6 {
 .section__seven__pragmatic__item__twentyeight a,
 .section__seven__pragmatic__item__thirty a,
 .section__seven__pragmatic__item__thirtyone a,
-.section__seven__pragmatic__item__thirtytwo a {
+.section__seven__pragmatic__item__thirtytwo a,
+.section__seven__pragmatic__item__thirtythree a,
+.section__seven__pragmatic__item__thirtyfour a,
+.section__seven__pragmatic__item__thirtyfive a,
+.section__seven__pragmatic__item__thirtysix a,
+.section__seven__pragmatic__item__thirtyseven a {
     display: none;
     font-family: kanit;
     font-size: 1.20rem;
@@ -1515,7 +1585,12 @@ h6 {
 .section__seven__pragmatic__item__twentyeight a:hover,
 .section__seven__pragmatic__item__thirty a:hover,
 .section__seven__pragmatic__item__thirtyone a:hover,
-.section__seven__pragmatic__item__thirtytwo a:hover {
+.section__seven__pragmatic__item__thirtytwo a:hover,
+.section__seven__pragmatic__item__thirtythree a:hover,
+.section__seven__pragmatic__item__thirtyfour a:hover,
+.section__seven__pragmatic__item__thirtyfive a:hover,
+.section__seven__pragmatic__item__thirtysix a:hover,
+.section__seven__pragmatic__item__thirtyseven a:hover {
     box-shadow: 0px 0px 10px #000;
 }
 
