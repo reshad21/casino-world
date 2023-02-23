@@ -180,10 +180,11 @@ h6 {
     grid-gap: 6px;
 }
 
+
 /* ----------- deposit start --------- */
 .deposit {
     background-color: #2e2828;
-    /* width: 290px; */
+    width: 290px;
     height: 199px;
     border-radius: 15px;
     display: flex;
@@ -249,7 +250,6 @@ h6 {
     box-shadow: 0px 0px 3px 2px #e0113a;
 }
 
-
 /* ----------- deposit end --------- */
 
 
@@ -262,7 +262,7 @@ h6 {
 /* ------------ withdrew_bonus start ----------- */
 .withdrew_bonus {
     background-color: #242328;
-    /* width: 290px; */
+    width: 290px;
     height: 199px;
     border-radius: 15px;
     display: flex;
@@ -1400,6 +1400,14 @@ h6 {
 
     .responsive__footer {
         opacity: 1;
+    }
+
+    #sectionThree {
+        display: none;
+    }
+
+    #sectionThreeResponsive {
+        display: block;
     }
 
 

@@ -1,0 +1,231 @@
+#sectionThreeResponsive {
+    display: none;
+}
+
+.sectionThreeResponsive {
+    padding: 40px 10px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6px;
+    overflow-x: auto;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    overflow-x: scroll;
+}
+
+/* ----------- deposit start --------- */
+.sectionThreeResponsive>.deposit {
+    background-color: #2e2828;
+    width: 200px;
+    /* height: 165px; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px 15px;
+    color: #664726;
+    justify-content: space-evenly;
+}
+
+.sectionThreeResponsive>.deposit span:nth-child(1) {
+    font-size: 16px;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+.sectionThreeResponsive>.deposit span:nth-child(2) {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    line-height: 0.9;
+}
+
+.sectionThreeResponsive>.deposit span:nth-child(2) .fa.fa-btc {
+    font-size: 32px;
+    padding-right: 5px
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp {
+    margin-top: 35px;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp a {
+    display: inline-block;
+    padding: 3px 10px;
+    font-family: kanit;
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px 0px #292828;
+    text-transform: uppercase;
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp a:nth-child(1) {
+    background-color: #3ec31c;
+    transition: all 0.2s ease;
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp a:nth-child(1):hover {
+    box-shadow: 0px 0px 3px 2px #3ec31c;
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp a:nth-child(2) {
+    background-color: #e0113a;
+}
+
+.sectionThreeResponsive>.deposit>.section_three_btn_grp a:nth-child(2):hover {
+    box-shadow: 0px 0px 3px 2px #e0113a;
+}
+
+/* ----------- deposit end --------- */
+
+
+
+
+
+
+
+
+/* ------------ withdrew_bonus start ----------- */
+.sectionThreeResponsive>.withdrew_bonus {
+    background-color: #242328;
+    width: 200px;
+    /* height: 162px; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px 9px;
+    color: #b5b5b6;
+    justify-content: space-evenly;
+}
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(1) {
+    font-size: 11px;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(2) {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Kanit';
+    line-height: 0.9;
+}
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(2) .fa.fa-btc {
+    font-size: 29px;
+    padding-right: 5px
+}
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(3) {
+    margin-top: 45px;
+}
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(3) a {
+    display: inline-block;
+    padding: 0px 6px;
+    font-family: kanit;
+    font-size: 1rem;
+    font-weight: 400;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 4px 2px 0px #292828;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all 0.2s ease;
+}
+
+.sectionThreeResponsive>.withdrew_bonus span:nth-child(3) a:hover {
+    color: #242328;
+    background-color: burlywood;
+}
+
+.sectionThreeResponsive>.withdrew_progress {
+    position: relative;
+}
+
+.sectionThreeResponsive>.withdrew_progress>.prograss__bar {
+    position: absolute;
+    width: 57%;
+    top: 50px;
+    left: 6px;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
+
+.sectionThreeResponsive>.withdrew_progress>.prograss__bar>.circle_outer {
+    text-align: center;
+}
+
+.sectionThreeResponsive>.withdrew_progress>.prograss__bar>.circle_outer>.circle {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #d00909;
+    border-radius: 50%;
+}
+
+.sectionThreeResponsive>.withdrew_progress>.prograss__bar>.circle_outer>.circle p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #b5b5b6;
+    display: inline-block;
+}
+
+.sectionThreeResponsive>.withdrew_progress>.prograss__bar>.circle_outer>.circlebg {
+    border: 3px solid #b5b5b6;
+}
+
+/* ------------ withdrew_bonus end ----------- */
+
+.sectionThreeResponsive>.refer_friend {
+    background-color: #242328;
+    width: 200px;
+    /* height: 162px; */
+    border-radius: 15px;
+}
+
+/* --------- invite_options start --------- */
+.invite_options {
+    width: 380px;
+    height: 199px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.muibox {
+    position: relative;
+}
+
+.muibox a {
+    background-color: #242328;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 50%;
+    width: 68px;
+    height: 72px;
+}
+
+.muibox a img {
+    width: 100%;
+}
+
+.muibox p {
+    font-family: kanit;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+}
+
+/* ---------- invite_options end ---------- */
