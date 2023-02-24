@@ -130,6 +130,8 @@ h6 {
 .header_right {
     text-align: right;
     width: 33%;
+    display: flex;
+    justify-content: end;
 }
 
 .header_right a {
@@ -2971,7 +2973,7 @@ h6 {
 
     .header_right a {
         display: inline-block;
-        padding: 5px 14px;
+        padding: 5px 9px;
         font-family: kanit;
         font-size: 0.8rem;
         font-weight: 400;
@@ -3198,5 +3200,68 @@ h6 {
         padding: 18px;
         bottom: 37px;
         left: 18px;
+    }
+
+    .deposit {
+        background-color: #2e2828;
+        width: 228px;
+        height: 199px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding: 10px 15px;
+        color: #664726;
+    }
+
+    .section_three_btn_grp a {
+        display: inline-block;
+        padding: 5px 15px;
+        font-family: kanit;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: aliceblue;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 3px 4px 2px 0px #292828;
+        text-transform: uppercase;
+    }
+
+    .withdrew_bonus {
+        background-color: #242328;
+        width: 228px;
+        height: 199px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding: 10px 15px;
+        color: #b5b5b6;
+    }
+
+    .prograss__bar {
+        position: absolute;
+        width: 46%;
+        top: 45px;
+        left: 8px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+    }
+
+    .withdrew_bonus span:nth-child(3) a {
+        display: inline-block;
+        padding: 5px 12px;
+        font-family: kanit;
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: aliceblue;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 3px 4px 2px 0px #292828;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        transition: all 0.2s ease;
     }
 }
